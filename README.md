@@ -158,16 +158,6 @@ seccheck/
 
 ---
 
-## Extending the Tool
-
-Some ideas for taking it further:
-
-- **JSON output** — add `--output report.json` flag and serialize results with `json.dump()`
-- **Batch mode** — accept a file of URLs and audit them all in sequence
-- **Header value validation** — check not just presence but strength (e.g. HSTS `max-age` > 1 year)
-- **CI integration** — exit with a non-zero code if the score falls below a threshold
-- **HTML report** — generate a shareable audit report page
-
 ---
 
 ## Disclaimer
