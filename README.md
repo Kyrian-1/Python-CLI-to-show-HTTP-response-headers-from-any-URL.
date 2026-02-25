@@ -52,8 +52,6 @@ python security_headers.py <url> [options]
 | Argument | Description |
 |---|---|
 | `url` | Target URL to check (e.g. `https://example.com`) |
-| `-v`, `--verbose` | Print all response headers, not just security-related ones |
-| `-t`, `--timeout` | Request timeout in seconds (default: `10`) |
 
 ### Examples
 
@@ -61,11 +59,7 @@ python security_headers.py <url> [options]
 # Basic check
 python security_headers.py https://example.com
 
-# Show all response headers
-python security_headers.py https://example.com --verbose
 
-# Custom timeout
-python security_headers.py https://example.com --timeout 5
 
 # URL without scheme (auto-prepends https://)
 python security_headers.py example.com
