@@ -38,27 +38,6 @@ A lightweight Python CLI tool that fetches HTTP response headers from any URL an
 
 ---
 
-## Installation
-
-**1. Clone the repository:**
-
-```bash
-git clone https://github.com/Kyrian-1/Python-CLI-to-show-HTTP-response-headers-from-any-URL.
-```
-
-**2. Install dependencies:**
-
-```bash
-pip install requests
-```
-
-**Optional — install as a command:**
-
-```bash
-pip install -e .
-```
-
-> Requires a `setup.py` or `pyproject.toml` with an entry point configured.
 
 ---
 
