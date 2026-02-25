@@ -1,4 +1,4 @@
-seccheck — HTTP Security Header Analyzer
+HTTP Security Header Analyzer
 
 A lightweight Python CLI tool that fetches HTTP response headers from any URL and audits them against a checklist of essential security headers. Get a security score, see what's missing, and know what to fix.
 
@@ -43,8 +43,7 @@ A lightweight Python CLI tool that fetches HTTP response headers from any URL an
 **1. Clone the repository:**
 
 ```bash
-git clone https://github.com/Kyrian-1/seccheck.git
-cd seccheck
+git clone https://github.com/Kyrian-1/Python-CLI-to-show-HTTP-response-headers-from-any-URL.
 ```
 
 **2. Install dependencies:**
